@@ -32,7 +32,7 @@ services:
     depends_on:
       - mysql-container
   http-dog-container:
-    image: jayoswal20/http-dog:1.2.0
+    image: jayoswal20/http-dog:1.3.0
     container_name: http-dog-container
     platform: linux/arm64/v8
     ports:
